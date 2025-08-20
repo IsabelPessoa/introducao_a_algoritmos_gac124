@@ -4,8 +4,12 @@ A seguir serão registradas as atividades realizadas organizadas (a princípio) 
 ____
 #### Instalação do GCC
 _Data de início:_ 20/08
+
 _Data de fim:_ 20/08
+
 _Assunto:_ Pasta exemplo
+
 _Objetivo principal:_ Criei uma "Pasta de exemplo" apenas para testar o funcionamento do "commit" pelo meu computador pessoal e para a instalação do GCC para que eu possa fazer as atividades em C++.
+
 _Considerações sobre a atividade:_ O arquivo teste.cpp foi testado e não houve nenhum erro de compilação. O GCC foi instalado com sucesso.
 
