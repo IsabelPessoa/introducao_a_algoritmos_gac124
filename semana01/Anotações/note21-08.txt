@@ -1,0 +1,6 @@
+# Anotações aula 21 de Agosto
+
+### Itens de necessidade
+- Todo programa deve começar com "#include <iostream>" que é a biblioteca básica de C++
+- >> é utilizado para leitura
+- << é utilizado para escrita
