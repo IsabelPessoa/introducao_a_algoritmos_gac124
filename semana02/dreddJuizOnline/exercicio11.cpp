@@ -10,11 +10,11 @@ float Converte_moeda(float valor_inicial, float peso){
 int main (){
     float reais;
 
-    ifstream entrada("salario");
-    entrada >> reais;
+    ifstream entrada("salario.txt");
+    cin >> reais;
     entrada.close();
 
-    ofstream saida("salario");
+    ofstream saida("salario.txt");
     
     saida << fixed << setprecision(2);
     saida << Converte_moeda(reais, 2.13) << endl;
