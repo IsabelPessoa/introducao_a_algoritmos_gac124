@@ -10,8 +10,6 @@ float Converte_moeda(float valor_inicial, float peso){
 int main (){
     float reais;
 
-    
-
     ifstream entrada("salario");
     entrada >> reais;
     entrada.close();
