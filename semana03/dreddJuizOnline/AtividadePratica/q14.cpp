@@ -6,7 +6,7 @@ using namespace std;
 
 double Calcula_despesa(double debito){
     double comissao_do_banco;
-    comissao_do_banco = debito*0.38;
+    comissao_do_banco = debito*0.0038;
     debito += comissao_do_banco;
     return debito;
 }
@@ -21,7 +21,7 @@ int main() {
     salario -= Calcula_despesa(debito2);
 
     cout << fixed << setprecision(2);
-    cout << salario << endl;
+    cout << salario;
 
     return 0;
 }
