@@ -1,5 +1,6 @@
 #include <iostream>
 #include <fstream>
+#include <iomanip>
 using namespace std;
 
 double Prestacao(double valorProduto, double prestacoes, double juros){
@@ -14,8 +15,9 @@ int main() {
     ofstream saida("opcoes.txt");
 
     entrada >> valorProduto;
-    
-    saida << valorProduto * 0.08 << endl;
+
+    saida << fixed << setprecision(2);
+    saida << (valorProduto * 0.92) << endl;
     saida << Prestacao(valorProduto, 4, 0) << endl;
     saida << Prestacao(valorProduto, 10, 0.1) << endl;
 
