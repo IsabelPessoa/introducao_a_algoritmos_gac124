@@ -20,7 +20,7 @@ int Retorna2Invertido(int num){
     return resultado;
 }
 
-int main(){
+int main(){0
     int numero;
     cin >> numero;
     
