@@ -1,22 +1,32 @@
 #include <iostream>
-#include <string>
-#include <cmath>
 using namespace std;
 
-int Soma(int num){
-    n = num;
-    while (n < )
-
-    return total;
+int SomaDigitos(int num) {
+    int soma = 0;
+    while (num > 0) {
+        soma += num % 10;
+        num /= 10;
+    }
+    return soma;
 }
 
-
-bool Harshad  (int n){
-    return true;
+bool EhHarshad(int num) {
+    int soma = SomaDigitos(num);
+    return num % soma == 0;
 }
 
-int main(){
-    
+int main() {
+    int numero;
+    cin >> numero;
+
+    int soma = SomaDigitos(numero);
+    int resto = numero % soma;
+
+    cout << resto << " ";
+    if (EhHarshad(numero))
+        cout << "sim" << endl;
+    else
+        cout << "nao" << endl;
 
     return 0;
 }
